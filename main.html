@@ -1,0 +1,43 @@
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body
+<h3>Use either mouse or keyboard for input</h3>
+  <div class="calcBody">
+    <div id="output">
+      <div id="display" onclick="clear()"></div>
+    </div>
+    <div class="keys">
+      <button onclick="calculate('1')" class="button">1</button>
+      <button onclick="calculate('2')" class="button">2</button>
+      <button onclick="calculate('3')" class="button">3</button>
+      <button onclick="operate(4)" class="button operator">+</button>
+    </div>
+    <div class="keys">
+      <button onclick="calculate('4')" class="button">4</button>
+      <button onclick="calculate('5')" class="button">5</button>
+      <button onclick="calculate('6')" class="button">6</button>
+      <button onclick="operate(3)" class="button operator">-</button>
+    </div>
+    <div class="keys">
+      <button onclick="calculate('7')" class="button">7</button>
+      <button onclick="calculate('8')" class="button">8</button>
+      <button onclick="calculate('9')" class="button">9</button>
+      <button onclick="operate(1)" class="button operator">*</button>
+    </div>
+    <div class="keys">
+      <button onclick="calculate('0')" class="button">0</button>
+      <button onclick="clearAll()" class="button operator">CA</button>
+      <button onclick="outputCalc()" class="button operator">=</button>
+      <button onclick="operate(2)" class="button operator">/</button>
+    </div>
+  </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+
+
+</body>
