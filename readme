@@ -1,0 +1,8 @@
+Calculator App
+
+Control with either mouse or keyboard input. Handles basic math operations (+,-,*,/).
+
+Need to add:
+ Clear button for mouse input
+ Clear all function for keyboard input
+ Decimal support
